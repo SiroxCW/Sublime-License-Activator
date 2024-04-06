@@ -19,7 +19,7 @@ for p in process_iter():
         p.kill()
         sleep(1)
 
-print("[INFO] Starting Injection...")
+print("[INFO] Starting modification...")
 
 with open(f'{environ["PROGRAMFILES"]}\Sublime Text\sublime_text.exe', 'rb') as f:
     content = f.read().hex()
