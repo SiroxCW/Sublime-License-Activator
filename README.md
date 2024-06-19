@@ -1,6 +1,7 @@
-# Sublime Activator
-Sublime Text License Register/Activation Tool
+## Sublime Activator
+This simple tool activates your Sublime Text with a lifetime license.
 
-This simple tool registers your Sublime Text with a Lifetime License.
+### How it works
+The script modifies the sublime_text.exe file by changing some hex values so the program thinks its activated.
 
-Sublime License Activator modifies the hex code of the main sublime executeable, so it tricks itself being activated.
+**This works completely offline.**
